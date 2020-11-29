@@ -7,7 +7,6 @@ HEIGHT = 600
 SCALE = 4
 
 window = pyglet.window.Window(WIDTH, HEIGHT)
-last_point = [0, 0]
 
 matrix = np.zeros((3, WIDTH // SCALE, HEIGHT // SCALE), dtype=np.uint8)
 
